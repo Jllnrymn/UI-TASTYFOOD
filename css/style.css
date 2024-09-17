@@ -1,0 +1,361 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+.navbar {
+    padding: 20px;
+}
+.navbar-toggler {
+  position: relative;
+  z-index: 2;
+}
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+.ml-custom {
+    margin-left: 100px;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffffff;
+    margin-bottom: 20%;
+}
+.hero-content {
+    max-width: 50%;
+}
+
+@keyframes putarGambar{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.hero-image {
+    position: absolute;
+    max-width: 40%;
+    border-radius: 50%;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    top: -20%;
+    right: -10%;
+    z-index: 1;
+    outline: none;
+    border: none;
+    pointer-events: none;
+    object-fit: cover;
+    animation-name: putarGambar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.btn-custom {
+    background-color: #000000;
+    color: #ffffff;
+}
+.line {
+    height: 2px; 
+    background: black !important;
+  }
+  .bg-image {
+    background-image: url('/img/Group-70@2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; 
+    padding-bottom: 100px;
+  }
+  .custom-card img {
+    width: 100%; 
+    height: auto; 
+  }
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card {
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    top: -20;
+    left: 0;
+    position: relative;
+}
+.top {
+  height: 560px;
+  object-fit: cover;
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-text {
+    line-height: 1.6;
+}
+  .btn-read-more {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn-read-more:hover {
+    text-decoration: underline;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .gallery-item {
+    flex: 1 1 calc(33.333% - 10px);
+  }
+  .gallery-item img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+  }
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.icon-small {
+  width: 30px;
+  height: auto;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card-p {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.card-po {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  position: relative;
+}
+.card-pu {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  position: relative;
+}
+.card-pa {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  position: relative;
+}
+.card-p img {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: -30%;
+  left: 6px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.card-po img {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: -30%;
+  left: 6px;
+  background-repeat: no-repeat;
+}
+.card-pu img {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: -30%;
+  left: 6px;
+  background-repeat: no-repeat;
+}
+.card-pa img {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: -30%;
+  left: 6px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.card-p h5 {
+  margin-top: 60%;
+}
+.card-p p {
+  margin-top: 10px;
+}
+.container-img{
+  width: 350px; 
+  height: 350px;
+}
+.galeri-imga{
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 15px; 
+  top: -1rem;
+  left: -9rem;
+}
+.galeri-imgi{
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 15px ; 
+  top: -1rem;
+  left: 9rem;
+}
+.galeri-img{
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 15px; 
+  top: -1rem;
+}
+
+@media (max-width: 750px) and (max-width: 390px) {
+  .hero-image {
+    top: -23px;
+  }
+  .card-p {
+      margin-bottom: 20px;
+      position: relative;
+  }
+  .card-po {
+      margin-top: 50px;
+      position: relative;
+  }
+  .card-pu {
+      margin-top: 80px;
+      position: relative;
+  }
+  .card-pa {
+      margin-top: 80px;
+      position: relative;
+  }
+  .img {
+    height: auto;
+    width: auto;
+    background-size: cover;
+  }
+  .card-p img {
+    position: absolute;
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    top: -30%;
+    left: 2%;
+    object-fit: cover;
+  }
+  .card-po img {
+    position: absolute;
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    top: -30%;
+    left: 2%;
+    object-fit: cover;
+  }
+  .card-pu img {
+    position: absolute;
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    top: -30%;
+    left: 2%;
+    object-fit: cover;
+  }
+  .card-pa img {
+    position: absolute;
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    top: -30%;
+    left: 2%;
+    object-fit: cover;
+  }
+  .galeri-imga{
+    left: -0px;
+  }
+  .galeri-imgi{
+    left: 0px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+  .hero-image{
+    top: -30px;
+  }
+  .card-pu {
+    margin-top: 60px;
+  } 
+  .card-pa {
+    margin-top: 60px;
+  }
+  .galeri-imgi{
+    left: 0px;
+  }
+  .galeri-imga{
+    left: 0px;
+  }
+}

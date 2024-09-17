@@ -1,0 +1,91 @@
+.navbar-background {
+    position: relative;
+    height: 600px; /* Adjust the height as needed */
+    background: url('/img/Group-70.png') no-repeat center center;
+    background-size: cover;
+}
+.navbar-background .navbar {
+    background: transparent; /* Semi-transparent background */
+}
+.color{
+  background-color: #f4f4f4;
+  padding-top: 20px;
+}
+.hero h1{
+    text-align: justify;
+    color: white;
+    padding-top: 25%;
+}
+.card-custom {
+    border: none;
+    border-radius: 0;
+  }
+  .card-img-custom {
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 20px;
+  }
+  .card-body-custom {
+    padding: 2rem;
+    top: -10%;
+  }
+  .btn-custom {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    padding: 0.75rem 1.5rem;
+  }
+  .card-custom {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  .card-img-custom {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px; /* Adjust as needed */
+  }
+  .card-body-custom {
+    padding: 1rem;
+  }
+  .btn-read-more {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 100px;
+  }
+  .btn-custom {
+    background-color: #000000;
+    color: #ffffff;
+}
+.square-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+}
+.square-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+@media (max-width: 750px) and (max-width: 390px) {
+  .navbar-background{
+    height: 400px;
+  }
+  .color{
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+  .color{
+    padding-bottom: 10px;
+  }
+}
